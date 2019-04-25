@@ -1,0 +1,13 @@
+1,2 교시 : 자바
+
+Exception handling Lab을 진행했다. 
+10문제 모두 풀었지만 아직 e.getMessage()를 정확하게 이용할줄 몰라서 2번문제를 풀 때 다른 케이스 처리하려 했다
+printf("%02d,&a); 할 경우 시계로 표시되듯이 두자리로 나옴
+
+6,7 교시 : 데이터구조
+
+용어 oop를 정확히 개념을 모른다. 
+oop : 객체 지향 프로그래밍(Object-oriented programming) 이라는 뜻이다
+double linked list를 배웠는데 struct 안에다가 constructor를 사용하면 pNode node = new Node(3,nullptr,nullptr);이런 식으로 사용할 수 있다.
+물론 전제는 struct Node안에 Node(int a, *a, *b)이런 식으로 선언되어 있어야 한다. 그러면 소괄호로 지정할 수 있다.
+더블로 바뀌면서 erase와 insert가 더 쉽게 가능하다고 했다.
