@@ -1,0 +1,16 @@
+1,2 교시 oss : sudo 즉 root권한으로 움직일 때 한 두번 할 때는 sudo ~~~이렇게 쓰는게 편하지만 계속 관리자 권한으로 활동해야
+               할 때는 sudo su - 이렇게 하면 관리자로 쭉 움직임 이렇게 사용하다가 다시 그 위에 어떠한 아이디로 들어가고
+               싶으면 su - psb 이런 식으로 다시 들어간다 원 위에 원을 또 두르는 느낌으로 이해하면 되기 때문에 한 번 exit
+               할 때마다 아이디가 벗겨진다고 이해하자 
+               ifconfig 는 my if address check 이고 ping [ip address or host name] 은 remote device check이다.
+               이건 아직 공부 안했는데 resolve name service : /etc/hosts -> DNS lookup이건 공부하자
+               networking status : netstat -a
+               APT는 Advanced package Tool을 의미한다
+               service apache2 , service apache2 status등을 이용해 볼 수 있고
+               이것도 아직 잘 모르겠는데 serversidescript 는 소스를 볼 수 없는데 html 과 php코드가 섞였는데 잘 못 열면
+               안에 소스가 보인다.
+               apache2.conf
+              
+
+
+5교시 논리설계 : latch 와 flip-flop 차이를 배웠고 timing diagram 그리는 법을 
