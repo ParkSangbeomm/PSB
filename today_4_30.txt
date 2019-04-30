@@ -13,4 +13,7 @@
               
 
 
-5교시 논리설계 : latch 와 flip-flop 차이를 배웠고 timing diagram 그리는 법을 
+5교시 논리설계 : latch 와 flip-flop 차이를 배웠고 timing diagram 그리는 법을 배움
+
+
+
