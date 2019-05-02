@@ -148,3 +148,106 @@ public class Main{
   }
 }
 */
+/*
+//binary fiile로 넣기
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.EOFException;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+public class Main{
+  public static void main(String[] args){
+    String fileName = "numbers.dat";
+    try{
+      ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(fileName));
+      System.out.println("Reading the nonnegative integers");
+      System.out.println("in the file " + fileName);
+      int anInteger = inputStream.readInt();
+      while (anInteger >= 0){
+        System.out.println(anInteger);
+        anInteger = inputStream.readInt();
+      }
+      System.out.println("End of reading from file.");
+      inputStream.close();
+    }
+    catch(FileNotFoundException e){
+      System.out.println("Problem opening the file " + fileName); }
+    catch(EOFException e){
+      System.out.println("Problem reading the file " + fileName);
+      System.out.println("Reached end of the file.");
+    }
+    catch(IOException e){
+      System.out.println("Problem reading the file " + fileName);
+    }
+  }
+}
+*/
+/*
+//object로 
+import java.io.ObjectOutputStream;
+import java.io.FileOutputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.EOFException;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    ObjectOutputStream outputStream = null;
+    String fileName = "studentlist.records";
+    try{
+      outputStream = new ObjectOutputStream(new FileOutputStream(fileName));
+    }
+    catch(
+      IOException e){System.out.println("Error");System.exit(0);
+    }
+    P13_Student s = new P13_Student("sman",20010101);
+    P13_Student b = new P13_Student("bman",20170100);
+    try{
+      outputStream.writeObject(s); outputStream.writeObject(b);
+      outputStream.close();
+    }
+    catch(IOException e){
+      System.out.println("Error");
+      System.exit(0);
+    }
+    System.out.println("Let's reopen the file");
+    ObjectInputStream inputStream = null;
+    try{
+      inputStream = new ObjectInputStream(new FileInputStream("studentlist.records"));
+    }
+    catch(IOException e){
+      System.out.println("Error");
+      System.exit(0);
+    }
+
+    P13_Student s2 = null, b2 = null;
+    try{
+      s2 = (P13_Student)inputStream.readObject();
+      b2 = (P13_Student)inputStream.readObject();
+      inputStream.close();
+    }
+    catch(Exception e){
+      System.out.println("Error");
+      System.exit(0);
+    }
+    s2.writeouput(); b2.writeouput();
+  }
+}
+import java.io.Serializable;
+
+public class P13_Student implements Serializable {
+  public String name;
+  public int number;
+  public P13_Student(String in_name, int in_num){
+      name = in_name;
+      number = in_num;
+    }
+  public void writeouput(){
+    System.out.println(name + " " + number);
+  }
+}     
+
+*/
