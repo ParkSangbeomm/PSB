@@ -161,3 +161,4 @@ ggplot(data=mpg, aes(x=displ,y=hwy)) + geom_point() #산점도 추가
 ggplot(data=mpg, aes(x=reorder(drv,-mean_hwy),y=mean_hwy))+geom_col() #크기순정렬
 ggplot(data=mpg, aes(x=drv)) + geom_bar() #빈도그래
 #geom_line() 선그래 geom_boxplot() #상자그래프
+//이제 쓸때가 
