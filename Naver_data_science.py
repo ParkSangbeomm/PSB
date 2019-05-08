@@ -66,3 +66,11 @@ df_foreignCharge=pd.DataFrame(datas_foreignCharge)
 #대선테마주를 대선주자별로 저장하고 싶지만 사실 필요없어
 #왜냐하면 어차피 시각화는 하나이기 떄문에 그냥 이번에 대통령인 문재인것만 하자 그 중에서도 예외가 있다면 그것만 하면 좋을텐데
 
+
+
+https://stml.tistory.com/26
+https://nittaku.tistory.com/111
+https://blessingdev.wordpress.com/2018/11/15/matplotlib-%EC%82%AC%EC%9A%A9%EA%B8%B0-3%EC%B6%95-%ED%8E%B8%EC%A7%91%ED%95%98%EA%B8%B0/
+http://pythonstudy.xyz/python/article/407-Matplotlib-%EC%B0%A8%ED%8A%B8-%ED%94%8C%EB%A1%AF-%EA%B7%B8%EB%A6%AC%EA%B8%B0
+https://medium.com/@peteryun/python-matplotlib-%EA%B8%B0%EB%B3%B8-6e23e5fd2f16
+https://zzsza.github.io/development/2018/08/24/data-visualization-in-python/
