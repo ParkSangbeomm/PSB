@@ -16,6 +16,96 @@ df = pd.DataFrame(datas)
 df_goods=pd.DataFrame(datas_goodsForeign)
 df_foreignCharge=pd.DataFrame(datas_foreignCharge)
 
+
+#donghwa=df[df['itemname'].isin(['바른손'])]
+#donghwa.to_csv('bareunson.csv', encoding='ms949')
+bareunson = pd.DataFrame(pd.read_csv("bareunson.csv",encoding='euc-kr'))
+bareunson['close_val'].plot(figsize=(15,6),label='바른손')
+#donghwa=df[df['itemname'].isin(['모나리자'])]
+#donghwa.to_csv('monarisa.csv', encoding='ms949')
+#monarisa = pd.DataFrame(pd.read_csv("monarisa.csv",encoding='euc-kr'))
+#monarisa['close_val'].plot(figsize=(15,6),label='모나리자')
+#donghwa=df[df['itemname'].isin(['국보'])]
+#donghwa.to_csv('gukbo.csv', encoding='ms949')
+#gukbo = pd.DataFrame(pd.read_csv("gukbo.csv",encoding='euc-kr'))
+#gukbo['close_val'].plot(figsize=(15,6),label='국보')
+#donghwa=df[df['itemname'].isin(['조광페인트'])]
+#donghwa.to_csv('jkpaint.csv', encoding='ms949')
+#jkpaint = pd.DataFrame(pd.read_csv("jkpaint.csv",encoding='euc-kr'))
+#jkpaint['close_val'].plot(figsize=(15,6),label='조광페인트')
+#donghwa=df[df['itemname'].isin(['우리들휴브레인'])]
+#donghwa.to_csv('wurideul.csv', encoding='ms949')
+#wurideul = pd.DataFrame(pd.read_csv("wurideul.csv",encoding='euc-kr'))
+#wurideul['close_val'].plot(figsize=(15,6),label='우리들휴브레인')
+#donghwa=df[df['itemname'].isin(['국일신동'])]
+#donghwa.to_csv('gukilsindong.csv', encoding='ms949')
+#gukilsindong = pd.DataFrame(pd.read_csv("gukilsindong.csv",encoding='euc-kr'))
+#gukilsindong['close_val'].plot(figsize=(15,6),label='국일신동')
+#donghwa=df[df['itemname'].isin(['SG세계물산'])]
+#donghwa.to_csv('sgmulsan.csv', encoding='ms949')
+#sgmulsan = pd.DataFrame(pd.read_csv("sgmulsan.csv",encoding='euc-kr'))
+#sgmulsan['close_val'].plot(figsize=(15,6),label='SG세계물산')
+#donghwa=df[df['itemname'].isin(['셀루메드'])]
+#donghwa.to_csv('selru.csv', encoding='ms949')
+#selru = pd.DataFrame(pd.read_csv("selru.csv",encoding='euc-kr'))
+#selru['close_val'].plot(figsize=(15,6),label='셀루메드')
+#donghwa=df[df['itemname'].isin(['비엠티'])]
+#donghwa.to_csv('bmt.csv', encoding='ms949')
+#bmt = pd.DataFrame(pd.read_csv("bmt.csv",encoding='euc-kr'))
+#bmt['close_val'].plot(figsize=(15,6),label='비엠티')
+#donghwa=df[df['itemname'].isin(['우리들제약'])]
+#donghwa.to_csv('wurideuljeyak.csv', encoding='ms949')
+#wurideuljeyak = pd.DataFrame(pd.read_csv("wurideuljeyak.csv",encoding='euc-kr'))
+#wurideuljeyak['close_val'].plot(figsize=(15,6),label='우리들제약')
+#donghwa=df[df['itemname'].isin(['이구산업'])]
+#donghwa.to_csv('29sanup.csv', encoding='ms949')
+#e9sanup = pd.DataFrame(pd.read_csv("29sanup.csv",encoding='euc-kr'))
+#e9sanup['close_val'].plot(figsize=(15,6),label='이구산업')
+#donghwa=df[df['itemname'].isin(['포비스티앤씨'])]
+#donghwa.to_csv('pobisdnc.csv', encoding='ms949')
+#pobisdnc = pd.DataFrame(pd.read_csv("pobisdnc.csv",encoding='euc-kr'))
+#pobisdnc['close_val'].plot(figsize=(15,6),label='포비스티앤씨')
+#donghwa=df[df['itemname'].isin(['화인베스틸'])]
+#donghwa.to_csv('hwain.csv', encoding='ms949')
+#hwain = pd.DataFrame(pd.read_csv("hwain.csv",encoding='euc-kr'))
+#hwain['close_val'].plot(figsize=(15,6),label='화인베스틸')
+#donghwa=df[df['itemname'].isin(['서희건설'])]
+#donghwa.to_csv('seohi.csv', encoding='ms949')
+#seohi = pd.DataFrame(pd.read_csv("seohi.csv",encoding='euc-kr'))
+#seohi['close_val'].plot(figsize=(15,6),label='서희건설')
+#donghwa=df[df['itemname'].isin(['DSR'])]
+#donghwa.to_csv('dsr.csv', encoding='ms949')
+#dsr = pd.DataFrame(pd.read_csv("dsr.csv",encoding='euc-kr'))
+#dsr['close_val'].plot(figsize=(15,6),label='DSR')
+#donghwa=df[df['itemname'].isin(['유성티엔에스'])]
+#donghwa.to_csv('yuseongtns.csv', encoding='ms949')
+#yuseongtns = pd.DataFrame(pd.read_csv("yuseongtns.csv",encoding='euc-kr'))
+#yuseongtns['close_val'].plot(figsize=(15,6),label='유성티엔에스')
+
+#donghwa=df[df['itemname'].isin(['씨아이테크'])]
+#donghwa.to_csv('citech.csv', encoding='ms949')
+#citech = pd.DataFrame(pd.read_csv("citech.csv",encoding='euc-kr'))
+#citech['close_val'].plot(figsize=(15,6),label='씨아이테크')
+#donghwa=df[df['itemname'].isin(['남화토건'])]
+#donghwa.to_csv('namhwa.csv', encoding='ms949')
+#namhwa = pd.DataFrame(pd.read_csv("namhwa.csv",encoding='euc-kr'))
+#namhwa['close_val'].plot(figsize=(15,6),label='남화토건')
+
+
+#donghwa=df[df['itemcode'].isin(['000020'])]
+#donghwa['close_val'].plot(figsize=(15,6),label='동화')
+#newbotec = pd.DataFrame(pd.read_csv("newbotec.csv",encoding='euc-kr'))
+#newbotec['close_val'].plot(figsize=(15,6),label='뉴보텍')
+#newbotec['close_val'].plot(figsize=(15,6),label='뉴보텍')
+plt.axvspan(190, 194, facecolor='gray', alpha=0.5)
+plt.xticks([0,50,100,150,200,250,300],['2015-01-07','2015-08-03','2016-03-10','2016-10-27','2017-06-09','2018-01-25','2018-09-11'])
+
+plt.xlabel("Date")
+plt.ylabel("Close_val")
+plt.legend()
+plt.show()
+
+
 #donghwa=df[df['itemcode'].isin(['000020'])]
 #dh=donghwa[['date','close_val']]
 ##donghwa=donghwa.drop(0,axis=1)
