@@ -16,7 +16,20 @@ df = pd.DataFrame(datas)
 df_goods=pd.DataFrame(datas_goodsForeign)
 df_foreignCharge=pd.DataFrame(datas_foreignCharge)
 
-
+#donghwa=df[df['itemname'].isin(['써니전자'])]
+#donghwa.to_csv('sunny.csv', encoding='ms949')
+sunny = pd.DataFrame(pd.read_csv("sunny.csv",encoding='euc-kr'))
+sunny['close_val'].plot(figsize=(30,12),label='안철수 : 써니전자')
+hj = pd.DataFrame(pd.read_csv("hj.csv",encoding='euc-kr'))
+hj['close_val'].plot(figsize=(30,12),label='유승민 : 형지엘리트')
+#anlab = pd.DataFrame(pd.read_csv("anlab.csv",encoding='euc-kr'))
+#anlab['close_val'].plot(figsize=(30,12),label='안철수 : 안랩')
+sewu = pd.DataFrame(pd.read_csv("sewu.csv",encoding='euc-kr'))
+sewu['close_val'].plot(figsize=(30,12),label='홍준표 : 세우글로벌')
+esconec = pd.DataFrame(pd.read_csv("esconec.csv",encoding='euc-kr'))
+esconec['close_val'].plot(figsize=(30,12),label='심상정 : 에스코넥')
+bareunson = pd.DataFrame(pd.read_csv("bareunson.csv",encoding='euc-kr'))
+bareunson['close_val'].plot(figsize=(30,12),label='문재인 : 바른손')
 #donghwa=df[df['itemname'].isin(['바른손'])]
 #donghwa.to_csv('bareunson.csv', encoding='ms949')
 bareunson = pd.DataFrame(pd.read_csv("bareunson.csv",encoding='euc-kr'))
