@@ -1,7 +1,7 @@
 # 코딩 4원칙
 # 1. 생각후코딩
 # 2. 조건과반복
-# 3. 읽기와쓰기
+# 3. 읽기와쓰기 
 # 4. 주기와받기
 #from math import exp, log, sqrt
 #import re
