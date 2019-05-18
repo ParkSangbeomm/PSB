@@ -5,7 +5,7 @@ Created on Thu Feb 14 14:38:47 2019
 @author: shb59
 """
 
-# 주식 데이터 가져오기 
+# 주식 데이터 가져오기  
 from pandas_datareader import data
 import matplotlib.pyplot as plt
 import fix_yahoo_finance as yf #anaconda prompt에서 pip ㄱㄱ
