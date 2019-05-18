@@ -7,7 +7,7 @@
 #import re
 #from datetime import date, time, datetime, timedelta
 #from operator import itemgetter
-#import glob
+#import glob 
 #  
 # #1: Print a simple string
 #print("Why not change the world?")
@@ -37,7 +37,7 @@
 #print(x)
 #print(3**4)
 #print(int(8.3)/int(2.7))
-# 엄밀하게 따지면 int()함수가 아니라 int객체의 생성자호출임 
+# 엄밀하게 따지면 int()함수가 아니라 int객체의 생성자호출임   
 # in C, (int)8.3
 #
 ## #5: FLOATING-POINT NUMBERS
