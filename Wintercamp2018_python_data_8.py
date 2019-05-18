@@ -10,7 +10,7 @@ from pandas_datareader import data
 import matplotlib.pyplot as plt
 import fix_yahoo_finance as yf #anaconda prompt에서 pip ㄱㄱ
 
-
+ 
 yf.pdr_override()
 
 start_date = '2000-1-1' 
