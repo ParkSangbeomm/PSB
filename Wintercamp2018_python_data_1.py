@@ -3,7 +3,7 @@
 # 2. 조건과반복
 # 3. 읽기와쓰기 
 # 4. 주기와받기
-#from math import exp, log, sqrt
+#from math import exp, log, sqrt 
 #import re
 #from datetime import date, time, datetime, timedelta
 #from operator import itemgetter
