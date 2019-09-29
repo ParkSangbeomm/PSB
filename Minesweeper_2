@@ -36,7 +36,7 @@ struct APoint
 
 
 void mainMenu();
-void levelSelectMenu();
+void levelSelect Menu();
 
 void initMap(struct Node (*gameMap)[MAX_Y], int gameLevel, int* retMineCnt);
 void randMine(struct Node (*gameMap)[MAX_Y], int gameLevel, int* retMineCnt);
