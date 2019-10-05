@@ -56,7 +56,7 @@ bareunson['close_val'].plot(figsize=(15,6),label='바른손')
 #gukilsindong['close_val'].plot(figsize=(15,6),label='국일신동')
 #donghwa=df[df['itemname'].isin(['SG세계물산'])]
 #donghwa.to_csv('sgmulsan.csv', encoding='ms949')
-#sgmulsan = pd.DataFrame(pd.read_csv("sgmulsan.csv",encoding='euc-kr'))
+#sgmulsan = pd.DataFrame(pd.read_csv("sgmulsan.csv",encoding='euc-kr')) 
 #sgmulsan['close_val'].plot(figsize=(15,6),label='SG세계물산')
 #donghwa=df[df['itemname'].isin(['셀루메드'])]
 #donghwa.to_csv('selru.csv', encoding='ms949')
